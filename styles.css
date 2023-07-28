@@ -1,0 +1,33 @@
+.card{
+    height:270px;
+    width:240px;
+    background-color:yellow;
+    border:5px solid orange;
+    display:flex;
+    flex-direction:column;
+}
+
+img{
+    height:180px;
+    width:100%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    /* margin-left:15px; */
+    object-fit:cover;
+}
+
+div{
+    padding:6px;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+}
+
+.wrapper{
+    justify-content:center;
+    height:960px;
+    width:1200px;
+    align-content:center;
+    padding:60px;
+}
